@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const HOST = 'virtual-memory.pages.dev';
+const HOST = 'virtual-memory.pageaura.xyz';
 const KEY = '3198e7280ee54b89b87ee902834b53f2';
-const KEY_LOCATION = `https://virtual-memory.pages.dev/3198e7280ee54b89b87ee902834b53f2.txt`;
+const KEY_LOCATION = `https://virtual-memory.pageaura.xyz/3198e7280ee54b89b87ee902834b53f2.txt`;
 
 const urlsFile = path.join(__dirname, 'urls.txt');
 let urlList = [];
