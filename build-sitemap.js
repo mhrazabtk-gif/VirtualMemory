@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://virtual-memory.pages.dev';
+const DOMAIN = 'https://virtual-memory.pageaura.xyz';
 const KEY = '3198e7280ee54b89b87ee902834b53f2';
 
 const ROOT = __dirname;
@@ -45,7 +45,7 @@ for (const value of rawUrls) {
   }
 
   if (
-    url.hostname.toLowerCase() !== 'virtual-memory.pages.dev' ||
+    url.hostname.toLowerCase() !== 'virtual-memory.pageaura.xyz' ||
     !['http:', 'https:'].includes(url.protocol) ||
     url.username ||
     url.password
